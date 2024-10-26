@@ -233,37 +233,6 @@
       }
     },
     {
-      "id": "16d42efb-ca51-4f25-848a-cc221de12bec",
-      "name": "desk_large",
-      "assetId": "9d4041d6-9484-4c3d-9e59-4257c32981a8",
-      "position": [
-        68.39245044077234,
-        1.3322676295501878e-15,
-        -63.12136104169892
-      ],
-      "scale": [
-        0.01,
-        0.01,
-        0.01
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "c7b01962-bdfe-4d0f-bf3e-a9b6ab9d9c51",
       "name": "Box",
       "position": [
@@ -1877,100 +1846,6 @@
       }
     },
     {
-      "id": "bdf8bb2b-6703-40fa-9f8e-59a861a7442b",
-      "name": "old-computer",
-      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
-      "position": [
-        67.0110357673787,
-        1.235140532118378,
-        -62.24017438341621
-      ],
-      "scale": [
-        2.0444742143189676,
-        1.9711045697477958,
-        1.9711045697477958
-      ],
-      "rotation": [
-        -3.100996202081372,
-        1.4484608997434967,
-        3.1052142638319573,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "receiveShadow": false
-    },
-    {
-      "id": "3f3f1ee3-b71b-41ba-ac3f-70310097da4a",
-      "name": "old-computer",
-      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
-      "position": [
-        67.01532744237622,
-        1.2411063809308678,
-        -63.55630656340338
-      ],
-      "scale": [
-        1.9926741492555873,
-        1.9211634434452203,
-        1.9211634434452192
-      ],
-      "rotation": [
-        -3.141592653589788,
-        1.5445628925915174,
-        3.105214263831953,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
-      "id": "f26ec7a1-3682-4ef5-921b-656377370720",
-      "name": "old-computer",
-      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
-      "position": [
-        67.2092176269956,
-        1.2584186054858697,
-        -64.83696326394788
-      ],
-      "scale": [
-        2.0329277501671488,
-        1.959972471287136,
-        1.959972471287136
-      ],
-      "rotation": [
-        -6.48391752572726e-16,
-        1.3824041657221735,
-        -0.036378389757834306,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "2606b246-60bd-4d97-b090-dfe077dbaac8",
       "name": "Box",
       "position": [
@@ -2711,6 +2586,124 @@
           "castShadow": true
         }
       }
+    },
+    {
+      "id": "97ece66b-6351-43eb-9b02-8ac4104ba91f",
+      "name": "Computers",
+      "type": "group",
+      "collisionDetection": false,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "position": [
+        67.0785269455835,
+        1.235140532118378,
+        -63.54448140358915
+      ],
+      "children": [
+        {
+          "id": "f26ec7a1-3682-4ef5-921b-656377370720",
+          "name": "old-computer",
+          "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+          "position": [
+            0.13069068141209073,
+            0.02327807336749177,
+            -1.292481860358727
+          ],
+          "scale": [
+            2.0329277501671488,
+            1.959972471287136,
+            1.959972471287136
+          ],
+          "rotation": [
+            -6.48391752572726e-16,
+            1.3824041657221735,
+            -0.036378389757834306,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        },
+        {
+          "id": "bdf8bb2b-6703-40fa-9f8e-59a861a7442b",
+          "name": "old-computer",
+          "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+          "position": [
+            -0.06749117820480421,
+            0,
+            1.304307020172942
+          ],
+          "scale": [
+            2.0444742143189676,
+            1.9711045697477958,
+            1.9711045697477958
+          ],
+          "rotation": [
+            -3.100996202081372,
+            1.4484608997434967,
+            3.1052142638319573,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          },
+          "receiveShadow": false
+        },
+        {
+          "id": "3f3f1ee3-b71b-41ba-ac3f-70310097da4a",
+          "name": "old-computer",
+          "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+          "position": [
+            -0.06319950320728651,
+            0.005965848812489849,
+            -0.01182515981422938
+          ],
+          "scale": [
+            1.9926741492555873,
+            1.9211634434452203,
+            1.9211634434452192
+          ],
+          "rotation": [
+            -3.141592653589788,
+            1.5445628925915174,
+            3.105214263831953,
+            "XYZ"
+          ],
+          "type": "asset_mesh",
+          "materialAssignments": [],
+          "collisionDetection": true,
+          "physics": {
+            "type": 2,
+            "friction": 0.5,
+            "density": 1,
+            "restitution": 0.5,
+            "mass": 1
+          }
+        }
+      ]
     }
   ]
 }
