@@ -1,0 +1,97 @@
+{
+  "name": "Box",
+  "type": "material",
+  "material": {
+    "type": "standard",
+    "params": {
+      "metalness": 0,
+      "opacity": 1
+    },
+    "side": 0,
+    "shaderParams": {
+      "color": {
+        "type": 10,
+        "value": "#3c3939"
+      },
+      "roughness": {
+        "type": 1
+      },
+      "metalness": {
+        "type": 1,
+        "value": 0.85
+      },
+      "map": {
+        "type": 2
+      },
+      "lightMap": {
+        "type": 2,
+        "value": "9d40422b-145a-47e7-832a-39bf2afaaf43"
+      },
+      "lightMapIntensity": {
+        "type": 1,
+        "value": "1"
+      },
+      "aoMap": {
+        "type": 2
+      },
+      "aoMapIntensity": {
+        "type": 1
+      },
+      "emissive": {
+        "type": 10,
+        "value": "#000000"
+      },
+      "emissiveIntensity": {
+        "type": 1
+      },
+      "emissiveMap": {
+        "type": 2
+      },
+      "bumpMap": {
+        "type": 2
+      },
+      "bumpScale": {
+        "type": 1
+      },
+      "normalMap": {
+        "type": 2
+      },
+      "normalScale": {
+        "type": 6,
+        "value": [
+          0,
+          0
+        ]
+      },
+      "displacementMap": {
+        "type": 2
+      },
+      "displacementScale": {
+        "type": 1
+      },
+      "displacementBias": {
+        "type": 1
+      },
+      "roughnessMap": {
+        "type": 2
+      },
+      "metalnessMap": {
+        "type": 2
+      },
+      "alphaMap": {
+        "type": 2
+      },
+      "envMap": {
+        "type": 2
+      },
+      "envMapIntensity": {
+        "type": 1
+      },
+      "refractionRatio": {
+        "type": 1
+      }
+    },
+    "bloom": true
+  },
+  "id": "9d424ff3-4f6a-4137-ab76-7a830bbee867"
+}

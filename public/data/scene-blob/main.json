@@ -1,0 +1,2716 @@
+{
+  "id": "uuvu76i94",
+  "name": "main",
+  "sceneId": "uuvu76i94",
+  "data": [
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#e28de8",
+        "density": 0.028,
+        "near": 100,
+        "far": 1000
+      }
+    },
+    {
+      "id": "3fcff1a4-676c-4c96-94da-16fcc0f5a59b",
+      "name": "Landscape",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d4283f2-8ad8-4c7a-b0d0-1a745dde1041",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "landscape",
+      "landscape": {
+        "options": {
+          "sectionSize": 50,
+          "sections": {
+            "x": 4,
+            "y": 4
+          },
+          "density": 40
+        },
+        "heightMaps": []
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "grass": {
+        "layers": []
+      }
+    },
+    {
+      "id": "58f047be-a1df-473c-ab83-3f55c9628867",
+      "name": "Box",
+      "position": [
+        66.3061208203196,
+        1.8583479626562993,
+        -63.0240893900618
+      ],
+      "scale": [
+        0.4370688135029522,
+        3.995681726761162,
+        6.091566345086601
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d4251a0-ab46-4ce6-a46b-e967a0028a74",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d6b16139-a480-4ffd-b631-d24015b96b24",
+      "name": "Box",
+      "position": [
+        66.82663591214536,
+        2.074945202621913,
+        -60.958863886564906
+      ],
+      "scale": [
+        0.6942983494427633,
+        0.0855862273324475,
+        1.6233617201718702
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424e12-2c84-49f7-ac64-bf2728026e11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c417ed24-63af-45e4-ac78-1ce699699c6c",
+      "name": "Box",
+      "position": [
+        66.85351211625414,
+        2.0801315234905386,
+        -63.0245182660903
+      ],
+      "scale": [
+        0.6517186544234621,
+        0.08558622733244743,
+        2.311990053430437
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424e12-2c84-49f7-ac64-bf2728026e11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "9147b946-3254-42cd-b131-a63201013bba",
+      "name": "Box",
+      "position": [
+        66.83636539637531,
+        2.080038969731384,
+        -65.07301708218135
+      ],
+      "scale": [
+        0.6942983494427633,
+        0.08558622733244749,
+        1.6233617201718704
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424e12-2c84-49f7-ac64-bf2728026e11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "16d42efb-ca51-4f25-848a-cc221de12bec",
+      "name": "desk_large",
+      "assetId": "9d4041d6-9484-4c3d-9e59-4257c32981a8",
+      "position": [
+        68.39245044077234,
+        1.3322676295501878e-15,
+        -63.12136104169892
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c7b01962-bdfe-4d0f-bf3e-a9b6ab9d9c51",
+      "name": "Box",
+      "position": [
+        66.93542129276162,
+        1.198313267264645,
+        -63.02963222854995
+      ],
+      "scale": [
+        1.603460136137413,
+        0.08558622733244742,
+        2.562755618098637
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "e73f73f5-3a96-4593-a6e8-981cf70d2555",
+      "name": "Box",
+      "position": [
+        68.12168545184409,
+        1.2123239810139876,
+        -60.941709404003625
+      ],
+      "scale": [
+        1.5589093987832818,
+        0.08558622733244739,
+        3.4878769635085107
+      ],
+      "rotation": [
+        2.449293598294706e-16,
+        1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "000cf478-907b-4d7d-9380-c2d435b34a47",
+      "name": "Box",
+      "position": [
+        68.10864568079671,
+        1.2156254918196445,
+        -65.31262808876575
+      ],
+      "scale": [
+        1.898169696196027,
+        0.08558622733244745,
+        3.4878769635085143
+      ],
+      "rotation": [
+        -1.776255279974231e-45,
+        1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c16de7d4-12cc-496f-8046-cf378a64f16e",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.81046216188,
+        2.3373150847035222,
+        -63.70205377978467
+      ],
+      "scale": [
+        0.27021964757265127,
+        0.9999986179659437,
+        1.6143247886501102
+      ],
+      "rotation": [
+        -0.0920675391603464,
+        -1.5314977026627046,
+        0.02456214595623291,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "c16a5dbd-c0b7-4a8f-a29e-a9fe98d56a37",
+      "name": "book_single",
+      "assetId": "9d404c22-6ac6-471c-a212-bf7f73cc3039",
+      "position": [
+        66.78224303789672,
+        2.39720741170936,
+        -61.97165815481119
+      ],
+      "scale": [
+        0.7692209633838953,
+        1.1304914385238967,
+        1.4624871533003656
+      ],
+      "rotation": [
+        3.141592653589793,
+        -1.552732639322565,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d424ff3-4f6a-4137-ab76-7a830bbee867",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "f7880c63-2ef7-4335-ba9b-f0bc0eacee8c",
+      "name": "book_single",
+      "assetId": "9d404c22-6ac6-471c-a212-bf7f73cc3039",
+      "position": [
+        66.77276087428135,
+        2.3549452085440086,
+        -62.18926115821848
+      ],
+      "scale": [
+        0.7692209633838953,
+        1.1304914385238967,
+        1.4624871533003656
+      ],
+      "rotation": [
+        3.141592653589793,
+        -1.552732639322565,
+        3.141592653589793,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d424ff3-4f6a-4137-ab76-7a830bbee867",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "c50cbffa-5974-45f2-a0fa-2d133d21e3d2",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.76529460202798,
+        2.216192732853946,
+        -62.51463183989268
+      ],
+      "scale": [
+        0.26283350499680963,
+        0.9000000000000026,
+        1.3311289058913145
+      ],
+      "rotation": [
+        0.34781708698650565,
+        -1.5201215154426952,
+        -1.2195216396249127,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d4253f1-f56c-4c66-b5a2-7274280c8be3",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "b25b210b-b577-4764-9e8c-a32bfbe98a1b",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.82576547770319,
+        2.3615444456144243,
+        -63.50538816632567
+      ],
+      "scale": [
+        0.27021964757265104,
+        0.9999986179659438,
+        1.6143247886501104
+      ],
+      "rotation": [
+        -0.09206753916034702,
+        -1.5314977026627017,
+        0.02456214595623241,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "2c293221-7ea7-48f0-9365-a6419c483e15",
+      "name": "Rounded Box",
+      "position": [
+        66.78049775889953,
+        2.3152277814424544,
+        -65.41748958141284
+      ],
+      "scale": [
+        0.5458619459304302,
+        0.4843320049568377,
+        0.5199018031199122
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424ff3-4f6a-4137-ab76-7a830bbee867",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d1d67954-241b-4978-b662-a09f4af5c2b3",
+      "name": "Box",
+      "position": [
+        67.17937144346585,
+        2.06480625760282,
+        -62.84055208252396
+      ],
+      "scale": [
+        0.015714147911235536,
+        0.12876380113247096,
+        0.14261105058283582
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "22e1fca9-22b5-4925-bf72-b785efe5437d",
+      "name": "Box",
+      "position": [
+        67.17937144346588,
+        2.0642327669929736,
+        -63.38686023863161
+      ],
+      "scale": [
+        0.015714147911235536,
+        0.12876380113247096,
+        0.14261105058283582
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "33b2dced-3f2d-4167-9cd7-5dc844487ae3",
+      "name": "Box",
+      "position": [
+        67.1793714434659,
+        2.036734696476445,
+        -63.13452490318353
+      ],
+      "scale": [
+        0.01771245801068219,
+        0.15303113946250396,
+        0.239041753475013
+      ],
+      "rotation": [
+        -0.09730047308715394,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "195deff1-e1fb-472e-b41e-cc9fc9a35ca8",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.73628933157808,
+        2.4164088209697905,
+        -62.50903403240891
+      ],
+      "scale": [
+        0.2628335049968097,
+        0.900000000000003,
+        1.3311289058913154
+      ],
+      "rotation": [
+        0.34781708698648234,
+        -1.5201215154427217,
+        -1.2195216396249695,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "receiveShadow": false,
+      "castShadow": true
+    },
+    {
+      "id": "12b4b0fd-6bea-4500-a088-efdd7d7dada8",
+      "name": "Box",
+      "position": [
+        66.57030374541932,
+        1.7346091144263553,
+        -61.34164678699003
+      ],
+      "scale": [
+        0.01789110297069738,
+        0.507893342292242,
+        0.41349677663705614
+      ],
+      "rotation": [
+        0.09599896803948335,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "2a8d5890-2538-4503-98fe-e6d4677d9075",
+      "name": "Box",
+      "position": [
+        66.5660055295673,
+        1.4778461466371975,
+        -61.750278777673216
+      ],
+      "scale": [
+        0.01750377615693186,
+        0.30307710260318377,
+        0.4349660250179355
+      ],
+      "rotation": [
+        0.15844599878641366,
+        -0.07563866616671232,
+        0.03413149092336673,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d5072c5-9314-4201-a483-12a8e42bbebc",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "32b1920d-30e5-46f7-a35d-7f4a56d9dbba",
+      "name": "Rounded Box",
+      "position": [
+        66.6757492482417,
+        1.4974209917582366,
+        -60.586709602754645
+      ],
+      "scale": [
+        0.323880928826682,
+        0.2955538427304456,
+        0.2225397601360478
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "83307130-be4f-45fd-883e-ebed1c0295f0",
+      "name": "Box",
+      "position": [
+        67.17378508686674,
+        2.005547772986218,
+        -61.52275304592411
+      ],
+      "scale": [
+        0.023210196045221395,
+        0.1901874084865713,
+        0.21064014803347678
+      ],
+      "rotation": [
+        0.06853896617673368,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "45f3dc4c-002d-43c1-ac16-be8ac11f23a0",
+      "name": "Box",
+      "position": [
+        67.17378508686677,
+        2.0428371807363255,
+        -61.33029026364754
+      ],
+      "scale": [
+        0.015714147911235536,
+        0.09405327085303732,
+        0.1426110505828358
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b254b61b-9841-4911-8f95-2273cc69fcf2",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.82691210415501,
+        2.375385027409974,
+        -63.29659547027895
+      ],
+      "scale": [
+        0.2702196475726511,
+        0.9999986179659437,
+        1.6143247886501122
+      ],
+      "rotation": [
+        -0.09206753916035684,
+        -1.5314977026627075,
+        0.02456214595622328,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "295f0c88-83bc-4a18-8efb-4934660d4c8c",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.81963496415868,
+        2.3698544003155915,
+        -63.079841706057344
+      ],
+      "scale": [
+        0.27021964757265093,
+        0.999998617965944,
+        1.614324788650111
+      ],
+      "rotation": [
+        -0.09206753916034639,
+        -1.5314977026627046,
+        0.02456214595623317,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d424ff3-4f6a-4137-ab76-7a830bbee867",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "receiveShadow": false,
+      "castShadow": true
+    },
+    {
+      "id": "8f1b037e-bd45-4391-aa25-28b091258aed",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.79258631067118,
+        2.377666511853974,
+        -62.86231345047632
+      ],
+      "scale": [
+        0.27021964757265104,
+        0.9999986179659441,
+        1.6143247886501118
+      ],
+      "rotation": [
+        -0.09206753916034853,
+        -1.531497702662713,
+        0.024562145956232566,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "receiveShadow": false,
+      "castShadow": true
+    },
+    {
+      "id": "dae0172b-651f-4514-aede-90ba0f43881b",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.8329278638835,
+        2.347348675290363,
+        -63.89774769177736
+      ],
+      "scale": [
+        0.22097127881425635,
+        0.9999986179659431,
+        1.6143247886501104
+      ],
+      "rotation": [
+        -0.09206753916034235,
+        -1.5314977026627046,
+        0.024562145956237146,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "0c890435-1dfc-4d91-89fb-6b1f903e7017",
+      "name": "book_set",
+      "assetId": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+      "position": [
+        66.88237270663187,
+        2.362272837206646,
+        -64.07641836069482
+      ],
+      "scale": [
+        0.21727493795412306,
+        0.9999986179659432,
+        1.614324788650111
+      ],
+      "rotation": [
+        -0.09206753916034288,
+        -1.5314977026627017,
+        0.02456214595623627,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "60c7cef6-81fb-43de-a236-b371c36a691f",
+      "name": "Box",
+      "position": [
+        68.81366287007847,
+        1.8569472684197421,
+        -65.85276710521599
+      ],
+      "scale": [
+        0.4370688135029522,
+        3.995681726761162,
+        5.457769251672544
+      ],
+      "rotation": [
+        5.473822126268817e-48,
+        -1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d4251a0-ab46-4ce6-a46b-e967a0028a74",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ca59e97f-1ac2-4cdb-9b79-dfc7cb2cdbb7",
+      "name": "Box",
+      "position": [
+        68.81602700972559,
+        1.8579756085339862,
+        -60.23842856624391
+      ],
+      "scale": [
+        0.4370688135029522,
+        3.995681726761162,
+        5.457769251672544
+      ],
+      "rotation": [
+        5.473822126268817e-48,
+        -1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d4251a0-ab46-4ce6-a46b-e967a0028a74",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c7ac4756-7dec-456c-a2c5-715a698a344f",
+      "name": "chair_desk_B",
+      "assetId": "9d42618d-ae6e-48f4-a761-dc55fa14acff",
+      "position": [
+        69.58620922349905,
+        -0.012364214675515406,
+        -63.06599303753203
+      ],
+      "scale": [
+        1.6349574430661602,
+        1.6349574430661598,
+        1.6349574430661602
+      ],
+      "rotation": [
+        0,
+        0.3435999744180529,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "f27d1e8c-b6db-40ae-90ef-08814ea73eb3",
+      "name": "Rounded Box",
+      "position": [
+        66.73878585961444,
+        1.2551170946802122,
+        -60.58996944664587
+      ],
+      "scale": [
+        0.5057116087396129,
+        0.266459965206796,
+        0.3205510637509582
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "6afe0d22-786c-4244-bc0b-eb9196d8a178",
+      "name": "Cylinder",
+      "position": [
+        66.8553280812719,
+        1.44666973135035,
+        -60.58497546671129
+      ],
+      "scale": [
+        0.14443014504353993,
+        0.14443014504353993,
+        0.12157504985795467
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "cylinder",
+      "shapeParams": {
+        "radialSegments": {
+          "value": 12,
+          "type": 1
+        },
+        "heightSegments": {
+          "value": 1,
+          "type": 1
+        },
+        "openEnded": {
+          "value": false,
+          "type": 4
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "18d50d2a-ad6d-44c3-a3a7-8804535fa708",
+      "name": "pictureframe_small_A",
+      "assetId": "9d4044ce-b90a-4bc8-9e2b-f854ab264aac",
+      "position": [
+        68.0392293046671,
+        2.598096219692506,
+        -65.77803764167777
+      ],
+      "scale": [
+        1.5126499271614464,
+        2.0210556907187622,
+        1.001708886771976
+      ],
+      "rotation": [
+        0,
+        0,
+        -1.5707963267948963,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "cf5e8567-0b21-4f61-b706-920d8cfa2672",
+      "name": "cactus_medium_A",
+      "assetId": "9d46832c-95f4-4b25-a63d-53e7ec03d7ed",
+      "position": [
+        68.9899248083358,
+        1.2582698078283259,
+        -65.33169639915772
+      ],
+      "scale": [
+        0.489159102630042,
+        0.48915910263004186,
+        0.489159102630042
+      ],
+      "rotation": [
+        0,
+        0.7620735784170125,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "castShadow": true
+    },
+    {
+      "id": "5115e2be-02bc-45fd-96f2-fa6f3b11b8f1",
+      "name": "Rounded Box",
+      "position": [
+        66.80553123929957,
+        2.2271325687023698,
+        -64.78693232452397
+      ],
+      "scale": [
+        0.5602962902657187,
+        0.3710823603940214,
+        0.4604837931826795
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5da952db-fb65-4cf2-b8c9-0638d5166b1f",
+      "name": "Rounded Box",
+      "position": [
+        66.78162814556529,
+        2.5241371907105368,
+        -64.7952533292953
+      ],
+      "scale": [
+        0.32388092882668207,
+        0.29555384273044555,
+        0.352258225450946
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4e7f6fbb-5443-4650-9bc1-5406d678b7b5",
+      "name": "Box",
+      "position": [
+        66.85454034461313,
+        2.3527556134718672,
+        -64.20388152490547
+      ],
+      "scale": [
+        0.6147433813660081,
+        0.6361612933611192,
+        0.02584927801030473
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a28e6e15-f749-45bf-b09e-a189a957698d",
+      "name": "Box",
+      "position": [
+        66.872285112749,
+        2.345938066372403,
+        -61.85595276781365
+      ],
+      "scale": [
+        0.6147433813660081,
+        0.6361612933611193,
+        0.022525536282477606
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "a3d894e3-170d-4969-a0c1-5f05c44ff46b",
+      "name": "Box",
+      "position": [
+        66.85048997428002,
+        2.344068106721702,
+        -61.795622784401345
+      ],
+      "scale": [
+        0.6147433813660081,
+        0.6361612933611193,
+        0.022525536282477606
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "61c43377-3eab-4f47-8be9-b3fd535d0149",
+      "name": "Box",
+      "position": [
+        66.87189957667577,
+        2.352427999249184,
+        -64.2500621067835
+      ],
+      "scale": [
+        0.6147433813660081,
+        0.6361612933611193,
+        0.022525536282477606
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "0f028c88-8c5e-4aa3-a6bc-5c3f758d91a2",
+      "name": "Rounded Box",
+      "position": [
+        68.13152360873768,
+        1.2655443483500528,
+        -61.45711577476234
+      ],
+      "scale": [
+        0.23352456452030076,
+        0.12494886070749903,
+        0.18473549615263637
+      ],
+      "rotation": [
+        0,
+        0.457671958385827,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "roundedBox",
+      "shapeParams": {
+        "width": {
+          "value": 1,
+          "type": 1
+        },
+        "height": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 1,
+          "type": 1
+        },
+        "segments": {
+          "value": 4,
+          "type": 1
+        },
+        "radius": {
+          "value": 0.1,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "89ba030e-94df-4c4f-a11b-a3f0565f7e5c",
+      "name": "Box",
+      "position": [
+        68.22026362486052,
+        1.8944781127022603,
+        -65.63423269846454
+      ],
+      "scale": [
+        0.019448678668620913,
+        0.41585067330768666,
+        0.44949525764263937
+      ],
+      "rotation": [
+        1.5707963267936165,
+        1.4557986487516772,
+        -1.5724672806087008,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d50a32e-c35e-4ea3-bfb9-855d9d21401f",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d1e32b31-2fde-4e94-ae50-27b3f715eef7",
+      "name": "Box",
+      "position": [
+        68.20529273426578,
+        1.7338757189946266,
+        -65.67401698898476
+      ],
+      "scale": [
+        0.019448678668618703,
+        0.4158506733076776,
+        0.4418057508380188
+      ],
+      "rotation": [
+        1.21806341295015,
+        1.3833463115428457,
+        -1.8180184934506922,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "bdf8bb2b-6703-40fa-9f8e-59a861a7442b",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        67.0110357673787,
+        1.235140532118378,
+        -62.24017438341621
+      ],
+      "scale": [
+        2.0444742143189676,
+        1.9711045697477958,
+        1.9711045697477958
+      ],
+      "rotation": [
+        -3.100996202081372,
+        1.4484608997434967,
+        3.1052142638319573,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "receiveShadow": false
+    },
+    {
+      "id": "3f3f1ee3-b71b-41ba-ac3f-70310097da4a",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        67.01532744237622,
+        1.2411063809308678,
+        -63.55630656340338
+      ],
+      "scale": [
+        1.9926741492555873,
+        1.9211634434452203,
+        1.9211634434452192
+      ],
+      "rotation": [
+        -3.141592653589788,
+        1.5445628925915174,
+        3.105214263831953,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "f26ec7a1-3682-4ef5-921b-656377370720",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        67.2092176269956,
+        1.2584186054858697,
+        -64.83696326394788
+      ],
+      "scale": [
+        2.0329277501671488,
+        1.959972471287136,
+        1.959972471287136
+      ],
+      "rotation": [
+        -6.48391752572726e-16,
+        1.3824041657221735,
+        -0.036378389757834306,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "2606b246-60bd-4d97-b090-dfe077dbaac8",
+      "name": "Box",
+      "position": [
+        67.4941750238835,
+        1.4567697614914121,
+        -64.83606230806227
+      ],
+      "scale": [
+        0.022605365469041943,
+        0.18523134695081808,
+        0.2766189208577268
+      ],
+      "rotation": [
+        0.02220999340050771,
+        -0.2146545194177614,
+        0.10390898310431763,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "985db4b8-1156-4e9e-a159-552bb183f372",
+      "name": "Box",
+      "position": [
+        67.4351324090634,
+        1.4552091953949509,
+        -64.61741259778891
+      ],
+      "scale": [
+        0.009302007543444022,
+        0.06315009915138461,
+        0.08441877191136311
+      ],
+      "rotation": [
+        0,
+        -0.11611461866765413,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "1bd3098a-0160-4e51-8f77-17f3d840f3cf",
+      "name": "Box",
+      "position": [
+        66.52465522707111,
+        1.3352735667928293,
+        -63.8442386570501
+      ],
+      "scale": [
+        0.013319849875565141,
+        0.11115772478644127,
+        0.1208820099626163
+      ],
+      "rotation": [
+        0,
+        -0.11611461866765414,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "4e811c6e-3612-421a-8891-e9c57f876b27",
+      "name": "Box",
+      "position": [
+        66.52465522707111,
+        1.6471475189276186,
+        -63.906534630520895
+      ],
+      "scale": [
+        0.03525679366153577,
+        0.3746504564331589,
+        0.5028705368360911
+      ],
+      "rotation": [
+        -0.012573861496525496,
+        -0.004744329746089098,
+        0.08014409455334563,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424bd9-a56e-4497-beb3-746537f1be11",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c26f5407-5024-4214-b768-0fca49ca858a",
+      "name": "Box",
+      "position": [
+        66.524655227071,
+        1.6963571355877936,
+        -62.49645450695384
+      ],
+      "scale": [
+        0.013641654107390044,
+        0.25524188721984914,
+        0.3342397023284839
+      ],
+      "rotation": [
+        -1.5703708539285326,
+        0.002136938896467335,
+        0.01196240943604626,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d509f23-424e-4221-a17f-da28417785e9",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "ad64b40f-495b-425c-84aa-712321c9368e",
+      "name": "Box",
+      "position": [
+        66.52465522707115,
+        1.3779581825451295,
+        -62.485673187393
+      ],
+      "scale": [
+        0.011585508061098733,
+        0.2624205176133464,
+        0.22439137976615434
+      ],
+      "rotation": [
+        0.0498321964282565,
+        0.0002925032633037891,
+        0.0005892960072390842,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d506a77-8b54-47a8-a1d3-0193c8244bd0",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "eae33124-d830-4e99-b525-97e6e0c79b20",
+      "name": "Box",
+      "position": [
+        66.5246552270711,
+        1.5643617346708132,
+        -62.860110939318155
+      ],
+      "scale": [
+        0.009057480528900248,
+        0.20515878251794098,
+        0.17542783124974634
+      ],
+      "rotation": [
+        1.9645521039289775,
+        0.0021411978541434127,
+        0.02223769109697752,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "b8697cf0-aee4-4d52-a902-81caded64f87",
+      "name": "Box",
+      "position": [
+        66.52465522707112,
+        1.3837889195768298,
+        -62.82101244795446
+      ],
+      "scale": [
+        0.008339616686321546,
+        0.15167018395634715,
+        0.0895360765869549
+      ],
+      "rotation": [
+        1.9645521039289788,
+        0.002141197854144341,
+        0.022237691096978127,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "94ec5320-4370-4f70-96c0-d6ff88db5edb",
+      "name": "Box",
+      "position": [
+        66.52465522707105,
+        1.7288916393950138,
+        -63.18288724860721
+      ],
+      "scale": [
+        0.014968980585523444,
+        0.2875433231138742,
+        0.4154650807799521
+      ],
+      "rotation": [
+        -0.07732308528529891,
+        0.0021411978541436417,
+        0.02223769109697682,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d50b75f-b5fe-4d72-8037-1021c924679a",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "686ee86f-54d1-4bc6-b65c-fe8c98f86504",
+      "name": "Box",
+      "position": [
+        66.52465522707108,
+        1.5151642926285596,
+        -63.26122563707385
+      ],
+      "scale": [
+        0.00833961668632154,
+        0.1516701839563472,
+        0.08953607658695481
+      ],
+      "rotation": [
+        1.3984533596777369,
+        0.002141197854145097,
+        0.022237691096977492,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "60873486-0db6-4f7c-afdc-b1d296370504",
+      "name": "Box",
+      "position": [
+        66.52465522707112,
+        1.3645367824742172,
+        -63.23684795529082
+      ],
+      "scale": [
+        0.010847833990934006,
+        0.16214508556970778,
+        0.2101039008270323
+      ],
+      "rotation": [
+        -1.6246131383175322,
+        0.002141197854146615,
+        0.02223769109697739,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d51091b-4fd4-4683-844e-293a2da18761",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "def93784-b818-40f0-95ce-7ad09809e474",
+      "name": "Box",
+      "position": [
+        66.52465522707112,
+        1.3415523367522377,
+        -63.08783199333273
+      ],
+      "scale": [
+        0.007945649117534691,
+        0.13684405957834433,
+        0.15389356765526677
+      ],
+      "rotation": [
+        -3.056419386999769,
+        0.002141197854144196,
+        0.022237691096976264,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "934d6cfc-b361-4ce9-b149-0e6b415819cb",
+      "name": "Box",
+      "position": [
+        66.52465522707108,
+        1.4991767457478,
+        -63.051125213936324
+      ],
+      "scale": [
+        0.006961372253584542,
+        0.11989233671472876,
+        0.13482981642321837
+      ],
+      "rotation": [
+        -3.056419386999769,
+        0.002141197854144151,
+        0.02223769109697651,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d424f55-7740-4f96-9cbe-5308d753ac93",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "042875e8-4429-4e20-93a0-54fa4c2ca03b",
+      "name": "Text",
+      "position": [
+        67.47333653836182,
+        1.4319800163917284,
+        -64.73033161377272
+      ],
+      "scale": [
+        0.06750866831856682,
+        0.06750866831856678,
+        0.06750866831856685
+      ],
+      "rotation": [
+        0.04287430179558165,
+        1.3524758002156319,
+        -1.601847633768242e-17,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "text",
+      "shapeParams": {
+        "text": {
+          "value": "WOZ",
+          "type": 12
+        },
+        "size": {
+          "value": 1,
+          "type": 1
+        },
+        "depth": {
+          "value": 0.2,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "8728d782-28dd-4ac6-8746-839977c1536d",
+      "name": "Text",
+      "position": [
+        66.58857057454031,
+        1.4413398107584405,
+        -61.721481076577675
+      ],
+      "scale": [
+        0.06541410043299853,
+        0.06541410043299853,
+        0.0654141004329986
+      ],
+      "rotation": [
+        -2.991834078766982,
+        1.567506058371086,
+        3.141592653589751,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "text",
+      "shapeParams": {
+        "text": {
+          "value": "Influence",
+          "type": 12
+        },
+        "size": {
+          "value": 0.6,
+          "type": 1
+        },
+        "depth": {
+          "value": 0.2,
+          "type": 1
+        }
+      },
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "091e7273-0b29-4888-9ad2-7c7d78b59ebf",
+      "name": "Box",
+      "position": [
+        68.84232429725736,
+        3.9099629299353316,
+        -63.08110186589318
+      ],
+      "scale": [
+        0.11659540963141482,
+        6.260877919244142,
+        5.4577608739849905
+      ],
+      "rotation": [
+        1.570796327431059,
+        -1.5707963267948966,
+        0,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "5c204df8-7f4c-4226-83f8-6457aafa89bc",
+      "name": "Ambient Light",
+      "assetId": "",
+      "position": [
+        66.52465522707108,
+        2.9073835181608296,
+        -60.74519790337044
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "light",
+      "light": {
+        "type": "ambient",
+        "ambient": {
+          "color": "#FFFFFF",
+          "intensity": 1.05
+        }
+      }
+    },
+    {
+      "id": "83905592-e4e1-4138-97b6-77d5c1e3b8f1",
+      "name": "WineBorttle",
+      "assetId": "9d4ea2de-1d84-42ee-bbd8-e98df21fc18f",
+      "position": [
+        66.62091566850516,
+        2.4183034128754084,
+        -60.5723688255063
+      ],
+      "scale": [
+        0.030074374497902286,
+        0.030074374497902286,
+        0.030074374497902286
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#00ff4e",
+          "materialId": "9d4ea3bb-9c22-4839-bf7e-70107444e6c3",
+          "name": "Erguotou"
+        }
+      ],
+      "castShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "538e49b3-f748-48b6-9f8b-4464ae969066",
+      "name": "Directional Light",
+      "assetId": "",
+      "position": [
+        66.52465522707108,
+        2.8837168842773293,
+        -63.137487167521776
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "light",
+      "light": {
+        "type": "directional",
+        "directional": {
+          "color": "#f2e8f1",
+          "intensity": 1.8,
+          "direction": [
+            0.1,
+            -1,
+            0
+          ],
+          "castShadow": true
+        }
+      }
+    }
+  ]
+}

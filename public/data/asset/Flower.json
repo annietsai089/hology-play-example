@@ -1,0 +1,9 @@
+{
+  "name": "Flower",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d50b71d-24be-4625-95ce-030e094703a7",
+  "fileKey": "Flower.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Flower.png"
+}

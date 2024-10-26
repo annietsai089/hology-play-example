@@ -1,0 +1,10 @@
+{
+  "name": "book_set",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d404b22-6b80-46ae-acc7-1ed0fdb23767",
+  "fileKey": "book_set.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\KayKit_Furniture_Bits_1.0_SOURCE\\KayKit_Furniture_Bits_1.0_SOURCE\\Assets\\obj\\book_set.obj",
+  "materialLib": "book_set.mtl"
+}

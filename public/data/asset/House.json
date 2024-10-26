@@ -1,0 +1,9 @@
+{
+  "name": "House",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d510928-e4c8-46af-87af-5d2011150c1d",
+  "fileKey": "House.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\House.png"
+}

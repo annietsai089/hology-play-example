@@ -1,0 +1,10 @@
+{
+  "name": "chair_desk_B",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d42618d-ae6e-48f4-a761-dc55fa14acff",
+  "fileKey": "chair_desk_B.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\KayKit_Furniture_Bits_1.0_SOURCE\\KayKit_Furniture_Bits_1.0_SOURCE\\Assets\\obj\\chair_desk_B.obj",
+  "materialLib": "chair_desk_B.mtl"
+}

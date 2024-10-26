@@ -1,0 +1,10 @@
+{
+  "name": "pictureframe_small_A",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d4044ce-b90a-4bc8-9e2b-f854ab264aac",
+  "fileKey": "pictureframe_small_A.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\KayKit_Furniture_Bits_1.0_SOURCE\\KayKit_Furniture_Bits_1.0_SOURCE\\Assets\\obj\\pictureframe_small_A.obj",
+  "materialLib": "pictureframe_small_A.mtl"
+}

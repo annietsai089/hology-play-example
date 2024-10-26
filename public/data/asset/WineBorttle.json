@@ -1,0 +1,12 @@
+{
+  "name": "WineBorttle",
+  "type": "mesh",
+  "collisionDetection": true,
+  "mesh": {
+    "rescale": 0.01
+  },
+  "id": "9d4ea2de-1d84-42ee-bbd8-e98df21fc18f",
+  "fileKey": "WineBorttle.fbx",
+  "fileFormat": "fbx",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\Wine Borttle\\WineBorttle.fbx"
+}

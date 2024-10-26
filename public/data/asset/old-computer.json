@@ -1,0 +1,9 @@
+{
+  "name": "old-computer",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d48f913-d852-4cb8-a037-65dd98cba888",
+  "fileKey": "old-computer.glb",
+  "fileFormat": "glb",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\old-computer.glb"
+}
