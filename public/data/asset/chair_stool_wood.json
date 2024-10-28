@@ -1,0 +1,10 @@
+{
+  "name": "chair_stool_wood",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d58f21f-571e-4430-9a18-0b744e90cca5",
+  "fileKey": "chair_stool_wood.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\KayKit_Furniture_Bits_1.0_SOURCE\\Furniture_Bits_1.0_SOURCE\\Assets\\obj\\chair_stool_wood.obj",
+  "materialLib": "chair_stool_wood.mtl"
+}

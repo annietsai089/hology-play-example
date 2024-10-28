@@ -17,8 +17,8 @@
       "type": "global_fog",
       "fog": {
         "type": "density",
-        "color": "#e28de8",
-        "density": 0.028,
+        "color": "#eed7ef",
+        "density": 0.005,
         "near": 100,
         "far": 1000
       }
@@ -181,8 +181,8 @@
           "name": "Default"
         }
       ],
-      "castShadow": true,
-      "receiveShadow": true,
+      "castShadow": false,
+      "receiveShadow": false,
       "collisionDetection": true,
       "shape": "box",
       "physics": {
@@ -220,7 +220,7 @@
           "name": "Default"
         }
       ],
-      "castShadow": false,
+      "castShadow": true,
       "receiveShadow": false,
       "collisionDetection": true,
       "shape": "box",
@@ -1410,7 +1410,13 @@
         "XYZ"
       ],
       "type": "asset_mesh",
-      "materialAssignments": [],
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
       "collisionDetection": true,
       "physics": {
         "type": 2,
@@ -1419,38 +1425,6 @@
         "restitution": 0.5,
         "mass": 1
       }
-    },
-    {
-      "id": "cf5e8567-0b21-4f61-b706-920d8cfa2672",
-      "name": "cactus_medium_A",
-      "assetId": "9d46832c-95f4-4b25-a63d-53e7ec03d7ed",
-      "position": [
-        68.9899248083358,
-        1.2582698078283259,
-        -65.33169639915772
-      ],
-      "scale": [
-        0.489159102630042,
-        0.48915910263004186,
-        0.489159102630042
-      ],
-      "rotation": [
-        0,
-        0.7620735784170125,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
     },
     {
       "id": "5115e2be-02bc-45fd-96f2-fa6f3b11b8f1",
@@ -1628,7 +1602,7 @@
       ],
       "type": "shape_mesh",
       "materialAssignments": [],
-      "castShadow": true,
+      "castShadow": false,
       "receiveShadow": true,
       "collisionDetection": true,
       "shape": "box",
@@ -1645,8 +1619,8 @@
       "name": "Box",
       "position": [
         66.85048997428002,
-        2.344068106721702,
-        -61.795622784401345
+        2.3440681067217017,
+        -61.77116987921702
       ],
       "scale": [
         0.6147433813660081,
@@ -1661,7 +1635,7 @@
       ],
       "type": "shape_mesh",
       "materialAssignments": [],
-      "castShadow": true,
+      "castShadow": false,
       "receiveShadow": true,
       "collisionDetection": true,
       "shape": "box",
@@ -1810,19 +1784,19 @@
       "id": "d1e32b31-2fde-4e94-ae50-27b3f715eef7",
       "name": "Box",
       "position": [
-        68.20529273426578,
-        1.7338757189946266,
-        -65.67401698898476
+        68.20693636747994,
+        1.7338757189946281,
+        -65.67401698898472
       ],
       "scale": [
-        0.019448678668618703,
-        0.4158506733076776,
-        0.4418057508380188
+        0.019448678668534256,
+        0.41585067330734876,
+        0.44744457058376713
       ],
       "rotation": [
-        1.21806341295015,
-        1.3833463115428457,
-        -1.8180184934506922,
+        1.218063413865964,
+        1.383346311424741,
+        -1.8180184945299511,
         "XYZ"
       ],
       "type": "shape_mesh",
@@ -2447,45 +2421,6 @@
       }
     },
     {
-      "id": "091e7273-0b29-4888-9ad2-7c7d78b59ebf",
-      "name": "Box",
-      "position": [
-        68.84232429725736,
-        3.9099629299353316,
-        -63.08110186589318
-      ],
-      "scale": [
-        0.11659540963141482,
-        6.260877919244142,
-        5.4577608739849905
-      ],
-      "rotation": [
-        1.570796327431059,
-        -1.5707963267948966,
-        0,
-        "XYZ"
-      ],
-      "type": "shape_mesh",
-      "materialAssignments": [
-        {
-          "color": "#aaaaaa",
-          "materialId": "9d425e5b-6ef2-4c4c-8936-714e4dba0124",
-          "name": "Default"
-        }
-      ],
-      "castShadow": false,
-      "receiveShadow": false,
-      "collisionDetection": true,
-      "shape": "box",
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "5c204df8-7f4c-4226-83f8-6457aafa89bc",
       "name": "Ambient Light",
       "assetId": "",
@@ -2638,7 +2573,8 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         },
         {
           "id": "bdf8bb2b-6703-40fa-9f8e-59a861a7442b",
@@ -2701,9 +2637,79 @@
             "density": 1,
             "restitution": 0.5,
             "mass": 1
-          }
+          },
+          "castShadow": true
         }
       ]
+    },
+    {
+      "id": "5f8f4d19-70e2-40bd-85cd-870ce77a8af8",
+      "name": "cactus_medium_A",
+      "assetId": "9d46832c-95f4-4b25-a63d-53e7ec03d7ed",
+      "position": [
+        68.90065490666701,
+        1.2584186054858681,
+        -65.19247803798804
+      ],
+      "scale": [
+        0.4847653562700061,
+        0.4847653562700061,
+        0.4847653562700061
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
+      "castShadow": true,
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "d4cc4e7b-7e39-4b20-8c58-becf2c53367e",
+      "name": "cup_pencils",
+      "assetId": "9d58f21f-2c58-4f71-bf8e-2786782b831f",
+      "position": [
+        66.61397769020073,
+        2.1177383162881367,
+        -60.72155227592812
+      ],
+      "scale": [
+        0.28564918083608654,
+        0.28564918083608654,
+        0.28564918083608654
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
     }
   ]
 }
