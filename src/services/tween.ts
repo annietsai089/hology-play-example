@@ -10,6 +10,10 @@ class TweenService {
 
   private objects = new Set<Object3D>()
 
+  isTweening(object: Object3D) {
+    return this.objects.has(object)
+  }
+
   moveObject(object: Object3D, target: Object3D) {
     if (this.objects.has(object)) {
       // Avoid starting multiple tweens.
