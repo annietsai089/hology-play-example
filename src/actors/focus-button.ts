@@ -1,16 +1,16 @@
 
 import { Actor, BaseActor, inject, Parameter, PointerEvents, ViewController, World } from "@hology/core/gameplay";
-import FocusPosition from "./focus-position";
-import { BoxGeometry, BufferGeometry, Material, Matrix4, Mesh, MeshBasicMaterial, Object3D, PerspectiveCamera, SphereGeometry, Vector3 } from "three";
 import { CameraActor } from "@hology/core/gameplay/actors";
-import TweenService from "../services/tween";
 import { ComponentsMat4Node, ConstantMat4Node, float, glslFunction, Mat4Node, mix, NodeShaderMaterial, rgba, select, transformed, uniformBool, uniforms, Vec4Node } from "@hology/core/shader-nodes";
 import { map, merge, takeUntil } from "rxjs";
-import Game from "../services/game";
+import { BufferGeometry, Material, Matrix4, Mesh, MeshBasicMaterial, Object3D } from "three";
+import * as Fonts from 'three/examples/fonts/helvetiker_regular.typeface.json';
+import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
+import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
+import { texts } from "../content";
 import GameState from "../services/state";
-import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js'
-import * as Fonts from 'three/examples/fonts/helvetiker_regular.typeface.json'
-import { Font } from 'three/examples/jsm/loaders/FontLoader.js'
+import TweenService from "../services/tween";
+import FocusPosition from "./focus-position";
 
 
 const buttonMaterial = (()=>{
@@ -56,11 +56,39 @@ const gl_Position = glslFunction(Vec4Node, {position: transformed.position, mode
 
 const missingTargetMaterial = new MeshBasicMaterial({color: 'red'})
 
+const buttonOptions = Object.entries(texts).map(([key, {title}]) => ({name: title, value: key}))
+
 @Actor()
 class FocusButton extends BaseActor {
 
   @Parameter()
   focusPosition?: FocusPosition
+
+  @Parameter({options: buttonOptions, type: String})
+  textKey?: keyof typeof texts
+
+  /*
+
+  When click, set the selected text. 
+  These texts can be defined in a separate typescript file
+
+  texts[this.textKey]
+
+  When you click somewhere or lose focus, it needs to remove the text. 
+  I think another approach to this is that you select focus and that itself 
+  makes the text show and the camera to move. 
+  
+  
+  To show the text, use the game state. 
+  Update the state using a function or signal. 
+  The UI is using the signal to display the correct thing. 
+
+  I think I could have used a signal for the focused target 
+
+  Also, maybe the text should be selected on the camera not the button. 
+  Doesn't really matter though
+
+  */
 
   pointerEvents = inject(PointerEvents)
   view = inject(ViewController)
@@ -104,10 +132,13 @@ class FocusButton extends BaseActor {
         if (this.focusPosition != null) {
           this.tween.moveObject(mainCamera.object, this.focusPosition?.object)
         }        
+        if (this.textKey != null) {
+          this.state.text.value = texts[this.textKey]
+        }
       } else {
         this.tween.moveObject(mainCamera.object, this.state.cameraStartObj)
+        this.state.text.value = undefined
       }
-
     })
   }
 
