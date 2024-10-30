@@ -1,5 +1,5 @@
 {
-  "name": "white",
+  "name": "Men",
   "type": "material",
   "material": {
     "type": "standard",
@@ -14,14 +14,14 @@
         "value": "#ffffff"
       },
       "roughness": {
-        "type": 1,
-        "value": "0.2"
+        "type": 1
       },
       "metalness": {
         "type": 1
       },
       "map": {
-        "type": 2
+        "type": 2,
+        "value": "9d5a1bcd-c0a4-4737-bcb0-26246534ce1e"
       },
       "lightMap": {
         "type": 2
@@ -90,5 +90,5 @@
       }
     }
   },
-  "id": "9d425e5b-6ef2-4c4c-8936-714e4dba0124"
+  "id": "9d5a1bfa-1e56-42c4-b139-add836478998"
 }

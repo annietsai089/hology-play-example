@@ -17,8 +17,8 @@
       "type": "global_fog",
       "fog": {
         "type": "density",
-        "color": "#e28de8",
-        "density": 0.028,
+        "color": "#eed7ef",
+        "density": 0.005,
         "near": 100,
         "far": 1000
       }
@@ -181,8 +181,8 @@
           "name": "Default"
         }
       ],
-      "castShadow": true,
-      "receiveShadow": true,
+      "castShadow": false,
+      "receiveShadow": false,
       "collisionDetection": true,
       "shape": "box",
       "physics": {
@@ -220,10 +220,41 @@
           "name": "Default"
         }
       ],
-      "castShadow": false,
+      "castShadow": true,
       "receiveShadow": false,
       "collisionDetection": true,
       "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "16d42efb-ca51-4f25-848a-cc221de12bec",
+      "name": "desk_large",
+      "assetId": "9d4041d6-9484-4c3d-9e59-4257c32981a8",
+      "position": [
+        68.39245044077234,
+        1.3322676295501878e-15,
+        -63.12136104169892
+      ],
+      "scale": [
+        0.01,
+        0.01,
+        0.01
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
       "physics": {
         "type": 2,
         "friction": 0.5,
@@ -1410,7 +1441,13 @@
         "XYZ"
       ],
       "type": "asset_mesh",
-      "materialAssignments": [],
+      "materialAssignments": [
+        {
+          "color": "#ffffff",
+          "materialId": "9d404b58-6d52-4814-8b36-f7bcaa6bae17",
+          "name": "furniture_texture"
+        }
+      ],
       "collisionDetection": true,
       "physics": {
         "type": 2,
@@ -1419,38 +1456,6 @@
         "restitution": 0.5,
         "mass": 1
       }
-    },
-    {
-      "id": "cf5e8567-0b21-4f61-b706-920d8cfa2672",
-      "name": "cactus_medium_A",
-      "assetId": "9d46832c-95f4-4b25-a63d-53e7ec03d7ed",
-      "position": [
-        68.9899248083358,
-        1.2582698078283259,
-        -65.33169639915772
-      ],
-      "scale": [
-        0.489159102630042,
-        0.48915910263004186,
-        0.489159102630042
-      ],
-      "rotation": [
-        0,
-        0.7620735784170125,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      },
-      "castShadow": true
     },
     {
       "id": "5115e2be-02bc-45fd-96f2-fa6f3b11b8f1",
@@ -1628,7 +1633,7 @@
       ],
       "type": "shape_mesh",
       "materialAssignments": [],
-      "castShadow": true,
+      "castShadow": false,
       "receiveShadow": true,
       "collisionDetection": true,
       "shape": "box",
@@ -1645,8 +1650,8 @@
       "name": "Box",
       "position": [
         66.85048997428002,
-        2.344068106721702,
-        -61.795622784401345
+        2.3440681067217017,
+        -61.77116987921702
       ],
       "scale": [
         0.6147433813660081,
@@ -1661,7 +1666,7 @@
       ],
       "type": "shape_mesh",
       "materialAssignments": [],
-      "castShadow": true,
+      "castShadow": false,
       "receiveShadow": true,
       "collisionDetection": true,
       "shape": "box",
@@ -1810,19 +1815,19 @@
       "id": "d1e32b31-2fde-4e94-ae50-27b3f715eef7",
       "name": "Box",
       "position": [
-        68.20529273426578,
-        1.7338757189946266,
-        -65.67401698898476
+        68.20693636747994,
+        1.7338757189946281,
+        -65.67401698898472
       ],
       "scale": [
-        0.019448678668618703,
-        0.4158506733076776,
-        0.4418057508380188
+        0.019448678668534256,
+        0.41585067330734876,
+        0.44744457058376713
       ],
       "rotation": [
-        1.21806341295015,
-        1.3833463115428457,
-        -1.8180184934506922,
+        1.218063413865964,
+        1.383346311424741,
+        -1.8180184945299511,
         "XYZ"
       ],
       "type": "shape_mesh",

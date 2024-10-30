@@ -1,0 +1,10 @@
+{
+  "name": "cup_pencils",
+  "type": "mesh",
+  "collisionDetection": true,
+  "id": "9d58f21f-2c58-4f71-bf8e-2786782b831f",
+  "fileKey": "cup_pencils.obj",
+  "fileFormat": "obj",
+  "sourceFile": "C:\\Users\\annie\\Downloads\\KayKit_Furniture_Bits_1.0_SOURCE\\Furniture_Bits_1.0_SOURCE\\Assets\\obj\\cup_pencils.obj",
+  "materialLib": "cup_pencils.mtl"
+}
