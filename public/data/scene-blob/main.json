@@ -2710,6 +2710,45 @@
         "restitution": 0.5,
         "mass": 1
       }
+    },
+    {
+      "id": "de8a3932-cbcb-439c-9961-18f71744695f",
+      "name": "Box",
+      "position": [
+        67.43424718343573,
+        1.652694320230087,
+        -60.45370154998174
+      ],
+      "scale": [
+        0.011011233660278617,
+        0.3072059926287557,
+        0.45746828498279074
+      ],
+      "rotation": [
+        1.3623458657625427,
+        1.5526985900856376,
+        -1.3620183927295177,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d5a1bfa-1e56-42c4-b139-add836478998",
+          "name": "Default"
+        }
+      ],
+      "castShadow": true,
+      "receiveShadow": true,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
     }
   ]
 }
