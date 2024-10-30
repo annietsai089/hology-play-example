@@ -233,37 +233,6 @@
       }
     },
     {
-      "id": "16d42efb-ca51-4f25-848a-cc221de12bec",
-      "name": "desk_large",
-      "assetId": "9d4041d6-9484-4c3d-9e59-4257c32981a8",
-      "position": [
-        68.39245044077234,
-        1.3322676295501878e-15,
-        -63.12136104169892
-      ],
-      "scale": [
-        0.01,
-        0.01,
-        0.01
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        "XYZ"
-      ],
-      "type": "asset_mesh",
-      "materialAssignments": [],
-      "collisionDetection": true,
-      "physics": {
-        "type": 2,
-        "friction": 0.5,
-        "density": 1,
-        "restitution": 0.5,
-        "mass": 1
-      }
-    },
-    {
       "id": "c7b01962-bdfe-4d0f-bf3e-a9b6ab9d9c51",
       "name": "Box",
       "position": [
@@ -1881,14 +1850,14 @@
       "name": "old-computer",
       "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
       "position": [
-        67.0110357673787,
+        67.01103576737869,
         1.235140532118378,
         -62.24017438341621
       ],
       "scale": [
-        2.0444742143189676,
+        2.0444742143189667,
         1.9711045697477958,
-        1.9711045697477958
+        1.971104569747795
       ],
       "rotation": [
         -3.100996202081372,
@@ -2710,6 +2679,142 @@
           ],
           "castShadow": true
         }
+      }
+    },
+    {
+      "id": "09d0e6b9-3661-41e5-9625-9bcc2a24c45b",
+      "name": "FocusButton_test",
+      "position": [
+        68.3429480325058,
+        1.7317010150352607,
+        -65.31856259541729
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusButton",
+        "innerParams": [],
+        "params": {
+          "focusPosition": {
+            "type": 13,
+            "value": "00036a9e-ba76-4983-ace3-aed8ac9a442e"
+          }
+        }
+      }
+    },
+    {
+      "id": "00036a9e-ba76-4983-ace3-aed8ac9a442e",
+      "name": "FocusPos_test",
+      "position": [
+        68.11179704111952,
+        1.9692278077066845,
+        -64.35438924001538
+      ],
+      "scale": [
+        0.21655557335780157,
+        0.21655557335780146,
+        0.21655557335780157
+      ],
+      "rotation": [
+        0,
+        -0.11648051487395562,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusPosition",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "camera",
+              "debugMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "7abd319b-3f95-4577-8ab1-e783e7ec9beb",
+      "name": "Camera",
+      "position": [
+        72.67502689719443,
+        1.9152099043277242,
+        -63.374312886800105
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.502210459410691,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "Camera",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "mesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
       }
     }
   ]

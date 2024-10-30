@@ -1,0 +1,86 @@
+{
+  "id": "9d56eea7-2ad2-481f-aba7-810eefc76aca",
+  "name": "test",
+  "sceneId": "9d56eea7-2ad2-481f-aba7-810eefc76aca",
+  "data": [
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#b8f8ff",
+        "density": 0.005,
+        "near": 100,
+        "far": 1000
+      }
+    },
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "59dced47-1817-4269-bf6e-8d6336989dc6",
+      "name": "Box",
+      "position": [
+        -11.23581117993526,
+        -1.3214784831230907e-15,
+        5.951410004171279
+      ],
+      "scale": [
+        0.019448678668620913,
+        0.41585067330768666,
+        0.44949525764263937
+      ],
+      "rotation": [
+        1.5707963267936165,
+        1.4557986487516772,
+        -1.5724672806087008,
+        "XYZ"
+      ],
+      "type": "shape_mesh",
+      "materialAssignments": [
+        {
+          "color": "#aaaaaa",
+          "materialId": "9d50a32e-c35e-4ea3-bfb9-855d9d21401f",
+          "name": "Default"
+        }
+      ],
+      "castShadow": false,
+      "receiveShadow": false,
+      "collisionDetection": true,
+      "shape": "box",
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}
