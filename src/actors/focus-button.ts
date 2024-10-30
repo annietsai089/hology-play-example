@@ -9,6 +9,9 @@ import { map, merge, takeUntil } from "rxjs";
 import Game from "../services/game";
 import GameState from "../services/state";
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js'
+import * as Fonts from 'three/examples/fonts/helvetiker_regular.typeface.json'
+import { Font } from 'three/examples/jsm/loaders/FontLoader.js'
+
 
 const buttonMaterial = (()=>{
   const isHovered = uniformBool('hover', false)
@@ -77,7 +80,7 @@ class FocusButton extends BaseActor {
   onInit(): void | Promise<void> {
 
     const buttonMaterialInstance = buttonMaterial.clone()
-    const textGeometry = new TextGeometry("adam")
+    const textGeometry = new TextGeometry("!", {font: new Font(Fonts), size: 1, height: .1})
     textGeometry.scale(0.2, 0.2, 0.2)
     const buttonMesh = new Mesh<BufferGeometry, Material>(textGeometry, buttonMaterialInstance)
     this.object.add(buttonMesh)
