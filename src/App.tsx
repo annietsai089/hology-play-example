@@ -20,9 +20,19 @@ function TextView() {
   </>
 }
 
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+
 function App() {
   return (
-    <HologyScene gameClass={Game} sceneName='main' dataDir='data' shaders={shaders} actors={actors}>
+    <HologyScene gameClass={Game} sceneName='main' dataDir='data' shaders={shaders} actors={actors} 
+      rendering={{
+        resolutionScale: 1,
+        maxPixelRatio: window.devicePixelRatio,
+        shadows: {
+          enabled: !isMobile,
+          autoUpdate: false
+        }
+      }}>
       <TextView></TextView>
     </HologyScene>
   );
