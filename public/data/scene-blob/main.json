@@ -2716,28 +2716,28 @@
           },
           "textKey": {
             "type": 12,
-            "value": "test"
+            "value": "followYourInterest"
           }
         }
       }
     },
     {
       "id": "00036a9e-ba76-4983-ace3-aed8ac9a442e",
-      "name": "FocusPos_test",
+      "name": "FocusPos_follow",
       "position": [
-        68.11179704111952,
-        1.9692278077066845,
-        -64.35438924001538
+        68.15138388205997,
+        1.969227807706684,
+        -64.02011919278975
       ],
       "scale": [
-        0.21655557335780157,
-        0.21655557335780146,
-        0.21655557335780157
+        0.2165555733578015,
+        0.2165555733578016,
+        0.2165555733578015
       ],
       "rotation": [
-        0,
-        -0.11648051487395562,
-        0,
+        -0.17065160193333367,
+        -0.06391766940471862,
+        0.0502156338748198,
         "XYZ"
       ],
       "type": "actor",
@@ -2863,6 +2863,389 @@
         "density": 1,
         "restitution": 0.5,
         "mass": 1
+      }
+    },
+    {
+      "id": "763127f3-0386-4ddb-9094-4266e772a1ab",
+      "name": "cactus_medium_A",
+      "assetId": "9d46832c-95f4-4b25-a63d-53e7ec03d7ed",
+      "position": [
+        68.65891470315078,
+        1.2584186054858681,
+        -65.18177673134925
+      ],
+      "scale": [
+        0.3842083821676023,
+        0.3842083821676023,
+        0.3842083821676023
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      }
+    },
+    {
+      "id": "c4f7c3d0-5ccf-4b18-9486-43e013048785",
+      "name": "FocusPos_steve",
+      "position": [
+        68.60550268816004,
+        1.9836819714631748,
+        -64.22598349536949
+      ],
+      "scale": [
+        0.21655557335780173,
+        0.2165555733578012,
+        0.21655557335780176
+      ],
+      "rotation": [
+        -0.6020765695601573,
+        1.0137732477145283,
+        0.5280562993312082,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusPosition",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "camera",
+              "debugMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "430d4aab-a03c-46ca-ac1d-7675ea887ceb",
+      "name": "FocusButton_steve",
+      "position": [
+        67.6095097913397,
+        1.654017003520714,
+        -64.5410726009481
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusButton",
+        "innerParams": [],
+        "params": {
+          "focusPosition": {
+            "type": 13,
+            "value": "c4f7c3d0-5ccf-4b18-9486-43e013048785"
+          },
+          "textKey": {
+            "type": 12,
+            "value": "steve"
+          }
+        }
+      }
+    },
+    {
+      "id": "51fb3448-4592-47e5-8120-fb3de6e30e26",
+      "name": "FocusButton_father",
+      "position": [
+        67.5470392361477,
+        1.6295149437146683,
+        -62.00480378818136
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusButton",
+        "innerParams": [],
+        "params": {
+          "focusPosition": {
+            "type": 13,
+            "value": "d26c44c8-5c49-4e9e-b5cb-5f43d10c64ce"
+          },
+          "textKey": {
+            "type": 12,
+            "value": "fathersWord"
+          }
+        }
+      }
+    },
+    {
+      "id": "d26c44c8-5c49-4e9e-b5cb-5f43d10c64ce",
+      "name": "FocusPos_father",
+      "position": [
+        67.79423047665873,
+        1.6368286454783478,
+        -61.46983312809033
+      ],
+      "scale": [
+        0.2165555733578018,
+        0.21655557335780135,
+        0.21655557335780157
+      ],
+      "rotation": [
+        0,
+        0.9138439761936383,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusPosition",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "camera",
+              "debugMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "50bff292-2f9a-4e81-8231-1beaf1b88412",
+      "name": "FocusButton_medal",
+      "position": [
+        67.024969575475,
+        2.3381477694625707,
+        -60.78893112321423
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusButton",
+        "innerParams": [],
+        "params": {
+          "focusPosition": {
+            "type": 13,
+            "value": "f41b73de-fb13-4e33-8328-79fbf8a5b636"
+          },
+          "textKey": {
+            "type": 12,
+            "value": "awards"
+          }
+        }
+      }
+    },
+    {
+      "id": "f41b73de-fb13-4e33-8328-79fbf8a5b636",
+      "name": "FocusPos_medal",
+      "position": [
+        68.5474296234599,
+        2.441195014822813,
+        -61.29523409276986
+      ],
+      "scale": [
+        0.2165555733578017,
+        0.21655557335780137,
+        0.21655557335780154
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.1595554957000145,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusPosition",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "camera",
+              "debugMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
+      }
+    },
+    {
+      "id": "aa0c9b17-2fa8-4d08-9dcf-051b96fa7e4a",
+      "name": "FocusButton_ronald",
+      "position": [
+        67.58234540144684,
+        1.621418117953389,
+        -60.735995738589985
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusButton",
+        "innerParams": [],
+        "params": {
+          "focusPosition": {
+            "type": 13,
+            "value": "9ccb319c-cb4c-4237-9cf2-3f9dc2dae009"
+          },
+          "textKey": {
+            "type": 12,
+            "value": "ronald"
+          }
+        }
+      }
+    },
+    {
+      "id": "9ccb319c-cb4c-4237-9cf2-3f9dc2dae009",
+      "name": "FocusPos_ronald",
+      "position": [
+        68.17757849759865,
+        1.6154352261579772,
+        -61.298658922316825
+      ],
+      "scale": [
+        0.2165555733578017,
+        0.21655557335780123,
+        0.2165555733578015
+      ],
+      "rotation": [
+        -3.141592653589793,
+        0.7954833309598777,
+        -3.141592653589793,
+        "XYZ"
+      ],
+      "type": "actor",
+      "actor": {
+        "type": "FocusPosition",
+        "innerParams": [
+          {
+            "path": [
+              "camera"
+            ],
+            "params": {
+              "near": {
+                "type": 1,
+                "value": 0.5
+              },
+              "far": {
+                "type": 1,
+                "value": 500
+              },
+              "viewAngle": {
+                "type": 1,
+                "value": 45
+              }
+            }
+          },
+          {
+            "path": [
+              "camera",
+              "debugMesh"
+            ],
+            "params": {}
+          }
+        ],
+        "params": {}
       }
     }
   ]

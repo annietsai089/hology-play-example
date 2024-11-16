@@ -17,7 +17,10 @@ function TextView() {
   
   
   if (text == null) {
-    return false
+    return <div className="text-box gradient-bg">
+    <h1>Founders Story<br/>Click & Learn</h1>
+  
+  </div>
   }
 
 

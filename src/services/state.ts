@@ -1,7 +1,7 @@
 import { Service, GameInstance, inject, World, ViewController } from '@hology/core/gameplay';
 import { CameraActor } from '@hology/core/gameplay/actors';
 import { Object3D, Quaternion, Vector3 } from 'three';
-import { signal } from '@preact/signals-react';
+import { effect, signal } from '@preact/signals-react';
 import { ReactElement } from 'react';
 import TweenService from './tween';
 
@@ -19,6 +19,10 @@ class GameState {
   world = inject(World)
 
   text = signal<TextContent>()
+
+  constructor() {
+    
+  }
 
   init(camera: CameraActor) {
     this.cameraStartObj.position.copy(camera.object.position)

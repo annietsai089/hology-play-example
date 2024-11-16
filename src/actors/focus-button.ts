@@ -1,18 +1,15 @@
 
-import { Actor, BaseActor, inject, Parameter, PointerEvents, ViewController, World } from "@hology/core/gameplay";
+import { Actor, AssetLoader, BaseActor, inject, Parameter, PointerEvents, ViewController, World } from "@hology/core/gameplay";
 import { CameraActor } from "@hology/core/gameplay/actors";
-import { ComponentsMat4Node, ConstantMat4Node, float, glslFunction, Mat4Node, mix, NodeShaderMaterial, rgba, select, transformed, uniformBool, uniforms, Vec4Node } from "@hology/core/shader-nodes";
 import { map, merge, takeUntil } from "rxjs";
-import { BufferGeometry, Material, Matrix4, Mesh, MeshBasicMaterial, Object3D, Sprite, SpriteMaterial, SRGBColorSpace, TextureLoader } from "three";
-import * as Fonts from 'three/examples/fonts/helvetiker_regular.typeface.json';
-import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
-import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
+import { Object3D, Sprite, SpriteMaterial, SRGBColorSpace } from "three";
 import { texts } from "../content";
 import GameState from "../services/state";
 import TweenService from "../services/tween";
 import FocusPosition from "./focus-position";
+import { effect } from "@preact/signals-react";
 
-
+/*
 const buttonMaterial = (()=>{
   const isHovered = uniformBool('hover', false)
 
@@ -32,8 +29,8 @@ const buttonMaterial = (()=>{
     transform: select<Mat4Node>(isHovered, scaleTransform2, new ConstantMat4Node(noTransform))
   })
 })()
-
-const gl_Position = glslFunction(Vec4Node, {position: transformed.position, modelViewMatrix: uniforms.modelViewMatrix}, /*glsl*/`
+*//*
+const gl_Position = glslFunction(Vec4Node, {position: transformed.position, modelViewMatrix: uniforms.modelViewMatrix}, `
   vec2 center = vec2(0.5, 0.5);
   float rotation = 0.0;
   vec4 mvPosition = modelViewMatrix * vec4( 0.0, 0.0, 0.0, 1.0 );
@@ -52,9 +49,9 @@ const gl_Position = glslFunction(Vec4Node, {position: transformed.position, mode
 
   mvPosition.xy += rotatedPosition;
   return projectionMatrix * mvPosition;
-`)
+`)*/
 
-const missingTargetMaterial = new MeshBasicMaterial({color: 'red'})
+//const missingTargetMaterial = new MeshBasicMaterial({color: 'red'})
 
 const buttonOptions = Object.entries(texts).map(([key, {title}]) => ({name: title, value: key}))
 
@@ -95,6 +92,7 @@ class FocusButton extends BaseActor {
   world = inject(World)
   tween = inject(TweenService)
   state = inject(GameState)
+  assets = inject(AssetLoader)
 
   private focused = false
 
@@ -111,7 +109,7 @@ class FocusButton extends BaseActor {
     //const textGeometry = new TextGeometry("!", {font: new Font(Fonts), size: 1, height: .1})
     //textGeometry.scale(0.2, 0.2, 0.2)
     //const buttonMesh = new Mesh<BufferGeometry, Material>(textGeometry, buttonMaterialInstance)
-    const texture = await new TextureLoader().loadAsync('/info.png')
+    const texture = await this.assets.getTextureByAssetId('9d80beb4-c5b2-4d61-bada-427cb49e2efa')
     texture.colorSpace = SRGBColorSpace
     const buttonMesh = new Sprite(new SpriteMaterial({map: texture}))
     const initScale = 0.2
@@ -132,6 +130,10 @@ class FocusButton extends BaseActor {
       }
       //buttonMaterialInstance.uniforms.hover.value = hover 
     })
+
+    effect(() => {
+      buttonMesh.visible = this.state.text.value == null
+    })
     
     this.pointerEvents.onClickActor(this).subscribe(() => {
       const mainCamera = this.world.findActorByType(CameraActor)
@@ -144,7 +146,7 @@ class FocusButton extends BaseActor {
         if (this.focusPosition != null) {
           this.tween.moveObject(mainCamera.object, this.focusPosition?.object)
         }        
-        if (this.textKey != null) {
+        if (this.textKey != null && texts[this.textKey] != null) {
           this.state.text.value = texts[this.textKey]
         }
       } else {
