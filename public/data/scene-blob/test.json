@@ -1,0 +1,2118 @@
+{
+  "id": "9d56eea7-2ad2-481f-aba7-810eefc76aca",
+  "name": "test",
+  "sceneId": "9d56eea7-2ad2-481f-aba7-810eefc76aca",
+  "data": [
+    {
+      "id": "auto-global-fog",
+      "name": "Global fog",
+      "type": "global_fog",
+      "fog": {
+        "type": "density",
+        "color": "#b8f8ff",
+        "density": 0.005,
+        "near": 100,
+        "far": 1000
+      }
+    },
+    {
+      "id": "auto-sky",
+      "name": "Sky",
+      "type": "sky",
+      "sky": {
+        "materialId": null
+      }
+    },
+    {
+      "id": "6838edd1-d1e1-4389-8cd5-b72a3d0b5926",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.678469206810538,
+        -1.4790800843636497e-15,
+        6.911184516791255
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "fb6faf3c-d936-4243-8963-65276466b8bd",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.29378606018563,
+        -1.4930686005229924e-15,
+        6.724183192953936
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "756af533-e33a-4ec3-8861-65e7d6450136",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.1354006969174,
+        -1.2096496811336159e-15,
+        5.447777853202192
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "a10ed671-2fc0-43a4-95a7-88961f2df458",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -9.405222396785476,
+        -1.5842510121187645e-15,
+        7.134832267839399
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "331b1e54-fd63-41ab-a1b9-186104d2b42e",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -13.006056831786541,
+        -8.359162457570872e-16,
+        3.764632092904562
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "d3233512-25ca-4904-9bd2-23f553e142e9",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -11.7200788162432,
+        -1.4136923279540613e-15,
+        6.36670424139044
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "d0697525-b3ef-4ad3-a29e-f397c2fbbe07",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -11.51600341880646,
+        -1.0015517734065143e-15,
+        4.510588193505837
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "4bb73f14-5502-4874-a4d6-f3d3884cb345",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -12.333815453518325,
+        -2.734742064306329e-16,
+        1.2316183341764404
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "8cadbf28-8a2f-4c99-9fdf-2e3693d6abb5",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -13.597377451438861,
+        -4.12179929554471e-16,
+        1.856293377151113
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "c298d508-8cb4-4ade-8a08-1d7ca69fa36a",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.035306474740054,
+        -7.60776240456979e-16,
+        3.4262315930343776
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5a450400-083b-4337-87b8-b9e8be43af09",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.1553986902455,
+        1.9272848748313352e-16,
+        -0.8679719444127194
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "d68f0516-1eb8-4e83-8e7f-82db3fa23fd0",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.364560845226967,
+        -1.5241802779144906e-15,
+        7.864297731661159
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cdaac9f4-8bd2-4503-a53e-07ec6218c670",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -9.912368118267601,
+        -1.7071952756249152e-15,
+        7.688524007153039
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f32f720b-2b94-4122-8f13-6106ad99bf38",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -11.04542780846213,
+        -1.5081775014509148e-15,
+        7.792227633542906
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "9fa560f4-ebb3-4562-b17f-891b1418f176",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -13.303598826492335,
+        -9.892201570584111e-16,
+        5.455051530715644
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "a466a7c8-68b3-4ad2-8aff-95fd6890d2ec",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -9.536002552662062,
+        -7.739164325746795e-16,
+        3.48540975735923
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "18b94323-8623-4744-b16e-f7da60359817",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.778202841472961,
+        -8.772378569713796e-17,
+        0.39507280857715976
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "91b7b757-093f-456f-97ec-61b6b0147bb4",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.918726853865508,
+        -8.902832122348711e-16,
+        2.0094791428751737
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "e62b40a2-0606-4c90-83dd-0091d59cf718",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -9.065460206655123,
+        -1.3301481779444052e-15,
+        5.990454838537968
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5d64c8b9-0334-42da-9ecd-be86e62231b7",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -8.233076671251787,
+        -1.8786071452699905e-15,
+        8.46049443941348
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "726a912b-bb95-4fff-91c0-5d7c7e2f7e77",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -8.267808574781549,
+        -1.8793141731417003e-15,
+        6.463678609873053
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "bd5a18f2-9cb6-4643-bf79-702a368dabe3",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -9.11052609190121,
+        -4.94367841106785e-16,
+        2.2264348249924737
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "b7932757-a5cb-492b-8e65-2f576c157db2",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.1500964436933,
+        2.1463251069136326e-16,
+        -0.9666188951712176
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "e0f1d409-e57d-4111-a480-2528b8a66d3d",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -12.491762161284964,
+        1.0942505036384059e-15,
+        -2.928066160435902
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "1aa69ebb-663c-4ddc-bf98-8a34a2d59347",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.038942350569794,
+        6.479763600497126e-16,
+        -2.918226093664776
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "339fedfc-453b-4f1d-8f40-4c9a3644ef23",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -15.628146316761185,
+        7.479997979600128e-16,
+        -3.3686916113659198
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "51b5e2c2-bc80-42c3-abd7-297d2a9db5e9",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -13.145535726822217,
+        1.7799798542448181e-16,
+        1.1983683391696047
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "3b7e3da8-a054-46f7-ad55-4ce98ddcb484",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -11.247911551921813,
+        -8.073638660011038e-16,
+        3.636043606074974
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5fd913f3-dfaf-4fb2-a7bc-da537b62b5f4",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.222515804787827,
+        -4.271916616402933e-16,
+        3.923900208179008
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "016ce320-c0d9-4310-a83a-d279ead779ed",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -11.143600945541637,
+        8.510577976803727e-16,
+        -1.8328235805040816
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "12ce6209-a06e-4ba5-bd6d-f03f533dbb9b",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -12.571084822798507,
+        8.797008707609478e-16,
+        -1.9618205137565052
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "516ec61b-36ef-48a4-8494-ce391ac2cf11",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.69359261629102,
+        2.29027692852776e-15,
+        -8.314490321892864
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "94c621ee-0cb5-40b2-a8d2-b228df4eb3ec",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.69359261629102,
+        2.29027692852776e-15,
+        -8.314490321892864
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "80c61c87-0aba-47e1-9a0a-1f6f74c4e862",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -10.532570676015258,
+        1.223176802875987e-15,
+        -3.5086985936405295
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "4ee1c98d-30f6-4c0f-ad8d-3409dd70ece5",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -12.077654606365662,
+        1.2143781034665465e-15,
+        -5.469072774258828
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "32265d73-0bdd-46a5-84ce-b98ec2c65df3",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -15.968604789143441,
+        2.2504636509472196e-15,
+        -8.135187259816744
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "bc83ce5d-a890-486f-b6ac-199a075dc997",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -17.439086141942667,
+        1.910061688652072e-15,
+        -6.602153109268132
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "de8c8d67-2b6b-441b-9a66-dd9ef5333d5e",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -17.439086141942667,
+        1.910061688652072e-15,
+        -6.602153109268132
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "52750b02-92b0-4401-bf54-59e77065b29f",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -16.866852995126706,
+        2.171654382602617e-15,
+        -7.780261868266651
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "130bc194-a58b-4ae0-bab7-3471025a3976",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -14.965227635244283,
+        2.6253263365549236e-15,
+        -11.823418711034703
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "3cfa0b93-b4f1-4aeb-a239-cb6763305f2e",
+      "name": "old-computer",
+      "assetId": "9d48f913-d852-4cb8-a037-65dd98cba888",
+      "position": [
+        -12.094342072579806,
+        2.378991508706166e-15,
+        -8.714025272126664
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        "XYZ"
+      ],
+      "type": "asset_mesh",
+      "materialAssignments": [],
+      "collisionDetection": true,
+      "physics": {
+        "type": 2,
+        "friction": 0.5,
+        "density": 1,
+        "restitution": 0.5,
+        "mass": 1
+      },
+      "parentTransform": {
+        "elements": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}

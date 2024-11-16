@@ -1,0 +1,9 @@
+{
+  "name": "info",
+  "type": "texture",
+  "collisionDetection": true,
+  "id": "9d80beb4-c5b2-4d61-bada-427cb49e2efa",
+  "fileKey": "info.png",
+  "fileFormat": "png",
+  "sourceFile": "C:\\Users\\adamr\\tmp\\hology-play-example\\public\\info.png"
+}
