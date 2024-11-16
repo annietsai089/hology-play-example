@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.text-box {
+  position: absolute;
+  max-width: 590px;
+  padding: 10px 50px 50px 50px;
+  border-radius: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 15px;
+  * {
+    max-width: 400px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 900px) {
+  .text-box {
+    top: 0;
+    font-size: .9rem;
+    padding: 10px 30px 20px 30px;
+    max-width: 100%;
+    transform: none;
+
+    
+    * {
+      max-width: 100%;
+    }
   }
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    margin-bottom: 0px;
+  }
+  
 }
 
-.card {
-  padding: 2em;
+.gradient-bg2 {
+  background: rgb(111,121,160);
+  background: linear-gradient(90deg, rgba(111,121,160,1) 0%, rgba(110,121,160,1) 75%, rgba(107,108,111,0) 100%);
+}
+.gradient-bg {
+  background: #3C5CD8;
 }
 
-.read-the-docs {
-  color: #888;
+a {
+  text-decoration: underline;
+}
+
+
+
+h1 {
+  background-image: linear-gradient(to right, #A2BBF6, #F0D4F7);
+  color: transparent;
+  background-clip: text;
 }

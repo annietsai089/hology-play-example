@@ -1,5 +1,5 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+:root {  
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,11 +14,10 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: white;
 }
 a:hover {
-  color: #535bf2;
+  color: #b6baff;
 }
 html {
     overflow: hidden;
@@ -51,8 +50,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  color: white;
-  background-color: #1a1a1a;
+  color: #3C5CD8;
+  background-color: white;
   cursor: pointer;
   transition: border-color 0.25s;
 }

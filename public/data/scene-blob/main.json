@@ -2713,6 +2713,10 @@
           "focusPosition": {
             "type": 13,
             "value": "00036a9e-ba76-4983-ace3-aed8ac9a442e"
+          },
+          "textKey": {
+            "type": 12,
+            "value": "test"
           }
         }
       }

@@ -3,7 +3,7 @@ import { Actor, BaseActor, inject, Parameter, PointerEvents, ViewController, Wor
 import { CameraActor } from "@hology/core/gameplay/actors";
 import { ComponentsMat4Node, ConstantMat4Node, float, glslFunction, Mat4Node, mix, NodeShaderMaterial, rgba, select, transformed, uniformBool, uniforms, Vec4Node } from "@hology/core/shader-nodes";
 import { map, merge, takeUntil } from "rxjs";
-import { BufferGeometry, Material, Matrix4, Mesh, MeshBasicMaterial, Object3D } from "three";
+import { BufferGeometry, Material, Matrix4, Mesh, MeshBasicMaterial, Object3D, Sprite, SpriteMaterial, SRGBColorSpace, TextureLoader } from "three";
 import * as Fonts from 'three/examples/fonts/helvetiker_regular.typeface.json';
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js';
 import { Font } from 'three/examples/jsm/loaders/FontLoader.js';
@@ -105,20 +105,32 @@ class FocusButton extends BaseActor {
     ).pipe(takeUntil(this.disposed))
   }
 
-  onInit(): void | Promise<void> {
+  async onInit(): Promise<void> {
 
-    const buttonMaterialInstance = buttonMaterial.clone()
-    const textGeometry = new TextGeometry("!", {font: new Font(Fonts), size: 1, height: .1})
-    textGeometry.scale(0.2, 0.2, 0.2)
-    const buttonMesh = new Mesh<BufferGeometry, Material>(textGeometry, buttonMaterialInstance)
+    //const buttonMaterialInstance = buttonMaterial.clone()
+    //const textGeometry = new TextGeometry("!", {font: new Font(Fonts), size: 1, height: .1})
+    //textGeometry.scale(0.2, 0.2, 0.2)
+    //const buttonMesh = new Mesh<BufferGeometry, Material>(textGeometry, buttonMaterialInstance)
+    const texture = await new TextureLoader().loadAsync('/info.png')
+    texture.colorSpace = SRGBColorSpace
+    const buttonMesh = new Sprite(new SpriteMaterial({map: texture}))
+    const initScale = 0.2
+    const hoverScale = 0.26
+    buttonMesh.scale.set(initScale, initScale, initScale)
+    buttonMesh.material.userData.hasBloom = false
     this.object.add(buttonMesh)
 
     if (this.focusPosition == null) {
-      buttonMesh.material = missingTargetMaterial
+      //buttonMesh.material = missingTargetMaterial
     }
 
     this.isHovering(buttonMesh).subscribe((hover) => {
-      buttonMaterialInstance.uniforms.hover.value = hover 
+      if (hover) {
+        buttonMesh.scale.set(hoverScale, hoverScale, hoverScale)
+      } else {
+        buttonMesh.scale.set(initScale, initScale, initScale)
+      }
+      //buttonMaterialInstance.uniforms.hover.value = hover 
     })
     
     this.pointerEvents.onClickActor(this).subscribe(() => {
