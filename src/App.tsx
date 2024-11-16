@@ -28,7 +28,7 @@ function TextView() {
     <h1>{text.title}</h1>
     <p>{text.body}</p>
     {text.link && <p>
-      <a href={text.link}>Read more</a>
+      <a href={text.link} target='_blank'>Read more</a>
       </p>}
     <button onClick={() => state.return()}>Go back</button>
   </div>
