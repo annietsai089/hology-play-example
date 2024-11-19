@@ -1,7 +1,6 @@
-import { Service, inject, World, ViewController } from '@hology/core/gameplay';
-import { CameraActor } from '@hology/core/gameplay/actors';
+import { inject, Service, ViewController } from '@hology/core/gameplay';
+import { takeWhile } from 'rxjs';
 import { Object3D, Quaternion, Vector3 } from 'three';
-import { takeWhile } from 'rxjs'
 
 @Service()
 class TweenService {

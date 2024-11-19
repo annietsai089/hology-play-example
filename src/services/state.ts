@@ -1,8 +1,8 @@
-import { Service, GameInstance, inject, World, ViewController } from '@hology/core/gameplay';
+import { inject, Service, World } from '@hology/core/gameplay';
 import { CameraActor } from '@hology/core/gameplay/actors';
-import { Object3D, Quaternion, Vector3 } from 'three';
-import { effect, signal } from '@preact/signals-react';
+import { signal } from '@preact/signals-react';
 import { ReactElement } from 'react';
+import { Object3D } from 'three';
 import TweenService from './tween';
 
 export type TextContent = {

@@ -1,6 +1,6 @@
-import { Service, GameInstance, inject, World, ViewController } from '@hology/core/gameplay';
+import { GameInstance, inject, Service, ViewController, World } from '@hology/core/gameplay';
 import { CameraActor } from '@hology/core/gameplay/actors';
-import { Object3D, Quaternion, Vector2, Vector3 } from 'three';
+import { Object3D, Vector2, Vector3 } from 'three';
 import GameState from './state';
 import TweenService from './tween';
 
@@ -49,7 +49,7 @@ class Game extends GameInstance {
     this.newTouch.y = touch.clientY  
   
     const diffX = this.newTouch.x - this.prevTouch.x
-    const diffY = this.newTouch.y - this.prevTouch.y
+  
 
     // I am currently rotating the camera now but it is the actor that rotates which 
     // makes it weird.
