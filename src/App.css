@@ -5,8 +5,7 @@
   max-width: 590px;
   padding: 10px 50px 20px 50px;
   border-radius: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -23,6 +22,7 @@
 
 @media (max-width: 900px) {
   .text-box {
+    bottom: inherit;
     top: 0;
     font-size: .9rem;
     padding: 10px 30px 20px 30px;
